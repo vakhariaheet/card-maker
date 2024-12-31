@@ -31,7 +31,6 @@ export function InquiryDialog({ children }: InquiryDialogProps) {
   const { register, handleSubmit, reset } = useForm<FormData>();
 
   const onSubmit = (data: FormData) => {
-    console.log(data);
     toast({
       title: "Inquiry Submitted",
       description: "We will get back to you soon.",
