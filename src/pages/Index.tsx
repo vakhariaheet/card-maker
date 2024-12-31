@@ -18,7 +18,7 @@ const Index = () => {
 				<header className='w-full py-20 px-4 text-center bg-[#1A1F2C] relative'>
 					<div className='max-w-screen-xl mx-auto'>
 						<h1 className='text-5xl md:text-6xl font-bold mb-4 text-white tracking-wide'>
-							Jignesh G patel
+							JIGNESH PATEL
 						</h1>
 						<p className='text-gray-300 text-xl mb-3'>Owner</p>
 						<p className='text-3xl text-white font-serif'>Advocate & Notary</p>
