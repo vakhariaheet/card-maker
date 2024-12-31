@@ -1,11 +1,4 @@
-import {
-	Phone,
-	Mail,
-	Scale,
-	QrCode,
-	UserPlus,
-	MessageSquare,
-} from 'lucide-react';
+
 import { QrCodePopover } from '@/components/QrCodePopover';
 import { InquiryDialog } from '@/components/InquiryDialog';
 import { Button } from '@/components/ui/button';
@@ -15,7 +8,7 @@ const Index = () => {
 		<div className=''>
 			<div className='min-h-screen flex flex-col items-center'>
 				{/* Header Section */}
-				<header className='w-full py-20 px-4 text-center bg-[#1A1F2C] relative'>
+				<header className='w-full py-20 px-4 text-center bg-cover bg-bottom bg-[#1A1F2C] relative' style={{background: 'url(/assets/bg.jpg), linear-gradient(rgba(26, 31, 44, 0.8), rgba(26, 31, 44, 0.6))', backgroundBlendMode: 'overlay', backgroundPosition:'bottom',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
 					<div className='max-w-screen-xl mx-auto'>
 						<h1 className='text-5xl md:text-6xl font-bold mb-4 text-white tracking-wide'>
 							JIGNESH PATEL
@@ -27,9 +20,9 @@ const Index = () => {
 
 				{/* Logo Section */}
 				<div className='relative -mt-16 mb-12'>
-					<div className='w-32 h-32 rounded-full p-7 bg-[#1A1F2C] flex items-center justify-center border-4 border-white shadow-2xl'>
+					<div className='w-32 h-32 rounded-full overflow-hidden bg-[#1A1F2C] flex items-center justify-center border-4 border-white shadow-2xl'>
 						<img
-							src='/assets/law.png'
+							src='/assets/main-icon.jpg'
 							alt='Jignesh G Patel'
 							className='w-full h-full object-cover '
 						/>

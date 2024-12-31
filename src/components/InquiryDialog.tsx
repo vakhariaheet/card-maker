@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import {
   Dialog,
@@ -26,11 +26,22 @@ interface InquiryDialogProps {
 }
 
 export function InquiryDialog({ children }: InquiryDialogProps) {
-  const [open, setOpen] = useState(false);
+  const [ open, setOpen ] = useState(false);
+  const [token, setToken] = useState<string | null>(null);
   const { toast } = useToast();
   const { register, handleSubmit, reset } = useForm<FormData>();
 
-  const onSubmit = (data: FormData) => {
+  const onSubmit = async (data: FormData) => {
+    const resp = await fetch(`${import.meta.env.VITE_WORKER_URL}/mail`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        'Authorization': `Bearer ${token}`
+      },
+      body: JSON.stringify(data)
+    });
+    const json = await resp.json();
+    console.log(json);
     toast({
       title: "Inquiry Submitted",
       description: "We will get back to you soon.",
@@ -38,7 +49,20 @@ export function InquiryDialog({ children }: InquiryDialogProps) {
     setOpen(false);
     reset();
   };
-
+  useEffect(() => {
+    console.log(import.meta.env.VITE_WORKER_URL);
+    if (!token) {
+      
+      fetch(`${import.meta.env.VITE_WORKER_URL}/get-token`, {
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${import.meta.env.VITE_PASSWORD}`
+        }
+      }).then(res => res.json()).then(data => {
+        setToken(data.token);
+      });
+    }
+  },[]);
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
