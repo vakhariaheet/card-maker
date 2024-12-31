@@ -1,4 +1,3 @@
-
 import { QrCodePopover } from '@/components/QrCodePopover';
 import { InquiryDialog } from '@/components/InquiryDialog';
 import { Button } from '@/components/ui/button';
@@ -8,7 +7,17 @@ const Index = () => {
 		<div className=''>
 			<div className='min-h-screen flex flex-col items-center'>
 				{/* Header Section */}
-				<header className='w-full py-20 px-4 text-center bg-cover bg-bottom bg-[#1A1F2C] relative' style={{background: 'url(/assets/bg.jpg), linear-gradient(rgba(26, 31, 44, 0.8), rgba(26, 31, 44, 0.6))', backgroundBlendMode: 'overlay', backgroundPosition:'bottom',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+				<header
+					className='w-full py-20 px-4 text-center bg-cover bg-bottom bg-[#1A1F2C] relative'
+					style={{
+						background:
+							'url(/assets/bg.jpg), linear-gradient(rgba(26, 31, 44, 0.8), rgba(26, 31, 44, 0.6))',
+						backgroundBlendMode: 'overlay',
+						backgroundPosition: 'bottom',
+						backgroundRepeat: 'no-repeat',
+						backgroundSize: 'cover',
+					}}
+				>
 					<div className='max-w-screen-xl mx-auto'>
 						<h1 className='text-5xl md:text-6xl font-bold mb-4 text-white tracking-wide'>
 							JIGNESH PATEL
@@ -31,7 +40,201 @@ const Index = () => {
 
 				{/* Actions Grid */}
 				<main className='flex-1 w-full max-w-screen-xl mx-auto px-4 py-8'>
-					<div className='grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 max-w-3xl mx-auto'>
+					<div className='grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-3xl mx-auto'>
+						{/*Main Site */}
+						<a
+							href='https://jigneshpateladvocate.webbound.in/'
+							className='flex flex-col items-center gap-4 group'
+						>
+							<div className='w-24 h-24 rounded-full bg-white flex items-center justify-center shadow-lg border-2 border-gray-100 group-hover:border-[#1A1F2C] transition-all duration-300'>
+								<svg
+									className='w-10 h-10 grayscale group-hover:grayscale-0 '
+									viewBox='0 0 256 256'
+								
+								>
+									<g>
+										<path
+											fill='#72c2e9'
+											d='M155.97 225.17h-55.94l7.23-30.17 1.68-7h38.12l1.68 7z'
+											opacity={1}
+											data-original='#72c2e9'
+										
+										/>
+										<path
+											fill='#4ba5c8'
+											d='M148.74 195h-41.48l1.68-7h38.12z'
+											opacity={1}
+											data-original='#4ba5c8'
+										/>
+										<rect
+											width='241.5'
+											height='171.5'
+											x='7.25'
+											y='16.5'
+											fill='#72c2e9'
+											rx={10}
+											opacity={1}
+											data-original='#72c2e9'
+										
+										/>
+										<path
+											fill='#efefef'
+											d='M233.75 31.5V173H22.25V31.5z'
+											opacity={1}
+									
+										/>
+										<path
+											fill='#f0c020'
+											d='M164.67 59.27v47.07l-11.75-.89 1.8 23.68 6.81-6.81 3.14 3.14v19.77a5 5 0 0 1-5 5h-112a5 5 0 0 1-5-5v-86a5 5 0 0 1 5-5h112a5 5 0 0 1 5 5.04z'
+											opacity={1}
+											data-original='#f0c020'
+										
+										/>
+										<path
+											fill='#e8a61e'
+											d='m164.67 106.34-11.75-.89 1.8 23.68 6.81-6.81 3.14 3.14v9.91l-3.14-3.15-1.86 1.86a7 7 0 0 1-11.93-4.42l-1.8-23.66a7 7 0 0 1 7.51-7.51l11.22.85z'
+											opacity={1}
+											data-original='#e8a61e'
+										/>
+										<path
+											fill='#fb5e3d'
+											d='M159.67 54.27H70.5L76.71 69a5 5 0 0 0 4.6 3h83.36V59.27a5 5 0 0 0-5-5z'
+											opacity={1}
+											data-original='#fb5e3d'
+										/>
+										<path
+											fill='#ffffff'
+											d='M225.75 167.5H44.25a2.5 2.5 0 0 1 0-5h179v-123a2.5 2.5 0 0 1 5 0V165a2.5 2.5 0 0 1-2.5 2.5zm-191.5 0h-4a2.5 2.5 0 0 1 0-5h4a2.5 2.5 0 0 1 0 5z'
+											opacity={1}
+											data-original='#ffffff'
+										/>
+										<rect
+											width='96.16'
+											height='14.33'
+											x='79.92'
+											y='225.17'
+											fill='#72c2e9'
+											rx='7.17'
+											opacity={1}
+											data-original='#72c2e9'
+										
+										/>
+										<rect
+											width='22.47'
+											height='22.47'
+											x='190.25'
+											y='54.27'
+											fill='#fb5e3d'
+											rx={5}
+											opacity={1}
+											data-original='#fb5e3d'
+										/>
+										<rect
+											width='22.47'
+											height='22.47'
+											x='190.25'
+											y='91.02'
+											fill='#13bf6d'
+											rx={5}
+											opacity={1}
+											data-original='#13bf6d'
+										/>
+										<rect
+											width='22.47'
+											height='22.47'
+											x='190.25'
+											y='127.77'
+											fill='#f0c020'
+											rx={5}
+											opacity={1}
+											data-original='#f0c020'
+											
+										/>
+										<path
+											fill='#efefef'
+											d='m181.01 125.27-8.27 8.27-8.07-8.08-3.14-3.14-6.81 6.81-1.8-23.68 11.75.89 11.93.91-6.8 6.81z'
+											opacity={1}
+											data-original='#efefef'
+											
+										/>
+										<rect
+											width={74}
+											height='28.98'
+											x='66.67'
+											y='84.5'
+											fill='#efefef'
+											rx={3}
+											opacity={1}
+											data-original='#efefef'
+											
+										/>
+										<path
+											d='M251.25 26.5a12.52 12.52 0 0 0-12.5-12.5H17.25a12.52 12.52 0 0 0-12.5 12.5V178a12.52 12.52 0 0 0 12.5 12.5h35.57a2.5 2.5 0 0 0 0-5H17.25a7.53 7.53 0 0 1-7.5-7.5V26.5a7.53 7.53 0 0 1 7.5-7.5h221.5a7.53 7.53 0 0 1 7.5 7.5V178a7.53 7.53 0 0 1-7.5 7.5H72.82a2.5 2.5 0 0 0 0 5h33l-7.71 32.17h-11a9.67 9.67 0 0 0 0 19.33h81.84a9.67 9.67 0 0 0 0-19.33h-11l-7.71-32.17h88.52a12.52 12.52 0 0 0 12.5-12.5zm-82.33 201.17a4.67 4.67 0 0 1 0 9.33H87.08a4.67 4.67 0 0 1 0-9.33zm-16.12-5h-49.6l7.71-32.17h34.18z'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+									
+										/>
+										<circle
+											cx='62.82'
+											cy={188}
+											r='2.5'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+											
+										/>
+										<circle
+											cx='233.75'
+											cy='68.5'
+											r='2.5'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+											
+										/>
+										<path
+											d='M236.25 31.5a2.49 2.49 0 0 0-2.5-2.5H22.25a2.51 2.51 0 0 0-2.5 2.5V173a2.5 2.5 0 0 0 2.5 2.5h211.5a2.49 2.49 0 0 0 2.5-2.5V78.5a2.5 2.5 0 0 0-5 0v92H24.75V34h206.5v24.5a2.5 2.5 0 0 0 5 0z'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+											
+										/>
+										<path
+											d='M215.22 59.27a7.5 7.5 0 0 0-7.5-7.5h-12.47a7.5 7.5 0 0 0-7.5 7.5v12.46a7.5 7.5 0 0 0 7.5 7.5h12.47a7.5 7.5 0 0 0 7.5-7.5zm-5 12.46a2.5 2.5 0 0 1-2.5 2.5h-12.47a2.5 2.5 0 0 1-2.5-2.5V59.27a2.5 2.5 0 0 1 2.5-2.5h12.47a2.5 2.5 0 0 1 2.5 2.5zM215.22 96a7.5 7.5 0 0 0-7.5-7.5h-12.47a7.5 7.5 0 0 0-7.5 7.5v12.46a7.5 7.5 0 0 0 7.5 7.5h12.47a7.5 7.5 0 0 0 7.5-7.5zm-5 12.46a2.5 2.5 0 0 1-2.5 2.5h-12.47a2.5 2.5 0 0 1-2.5-2.5V96a2.5 2.5 0 0 1 2.5-2.5h12.47a2.5 2.5 0 0 1 2.5 2.5zM207.72 125.27h-12.47a7.5 7.5 0 0 0-7.5 7.5v12.46a7.5 7.5 0 0 0 7.5 7.5h12.47a7.5 7.5 0 0 0 7.5-7.5v-12.46a7.5 7.5 0 0 0-7.5-7.5zm2.5 20a2.5 2.5 0 0 1-2.5 2.5h-12.47a2.5 2.5 0 0 1-2.5-2.5v-12.5a2.5 2.5 0 0 1 2.5-2.5h12.47a2.5 2.5 0 0 1 2.5 2.5zM61.38 64h-6.63a2.5 2.5 0 0 0 0 5h6.63a2.5 2.5 0 0 0 0-5z'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+											
+										/>
+										<path
+											d='M159.67 51.77h-112a7.5 7.5 0 0 0-7.5 7.5v86a7.5 7.5 0 0 0 7.5 7.5h112a7.5 7.5 0 0 0 7.5-7.5V131.5l3.8 3.81a2.51 2.51 0 0 0 3.54 0l8.27-8.27a2.52 2.52 0 0 0 0-3.54l-9.45-9.44 5-5a2.5 2.5 0 0 0-1.58-4.26l-9.62-.73v-44.8a7.5 7.5 0 0 0-7.46-7.5zm0 5a2.5 2.5 0 0 1 2.5 2.5V69.5H81.31A2.5 2.5 0 0 1 79 68l-4.74-11.2zm2.5 88.46a2.5 2.5 0 0 1-2.5 2.5h-112a2.5 2.5 0 0 1-2.5-2.5v-86a2.5 2.5 0 0 1 2.5-2.5h21.17l5.57 13.15a7.47 7.47 0 0 0 6.9 4.58h80.86v29.14l-9.06-.68a2.49 2.49 0 0 0-2.68 2.68l1.8 23.68a2.5 2.5 0 0 0 4.26 1.58l5-5 .64.64zm8.82-35.9-3 3a2.52 2.52 0 0 0 0 3.54l9.44 9.44-4.69 4.69-6.29-6.29-3.14-3.14a2.51 2.51 0 0 0-3.54 0l-3 3-1.17-15.35z'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+											
+										/>
+										<path
+											d='M137.67 82h-68a5.51 5.51 0 0 0-5.5 5.5v23a5.5 5.5 0 0 0 5.5 5.5h68a5.5 5.5 0 0 0 5.5-5.5v-23a5.51 5.51 0 0 0-5.5-5.5zm.5 28.48a.5.5 0 0 1-.5.5h-68a.5.5 0 0 1-.5-.5v-23a.5.5 0 0 1 .5-.5h68a.5.5 0 0 1 .5.5zM81.88 123.5H66.67a2.5 2.5 0 0 0 0 5h15.21a2.5 2.5 0 0 0 0-5zM81.88 134.63H66.67a2.5 2.5 0 0 0 0 5h15.21a2.5 2.5 0 0 0 0-5zM111.27 123.5h-15.2a2.5 2.5 0 0 0 0 5h15.2a2.5 2.5 0 0 0 0-5zM111.27 134.63h-15.2a2.5 2.5 0 0 0 0 5h15.2a2.5 2.5 0 0 0 0-5zM140.67 123.5h-15.21a2.5 2.5 0 1 0 0 5h15.21a2.5 2.5 0 0 0 0-5zM140.67 134.63h-15.21a2.5 2.5 0 1 0 0 5h15.21a2.5 2.5 0 0 0 0-5z'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+											
+										/>
+										<path
+											d='M92.4 102.65a2.5 2.5 0 1 0 3.54 0 2.59 2.59 0 0 0-3.54 0zM101.9 102.65a2.5 2.5 0 1 0 3.54 0 2.59 2.59 0 0 0-3.54 0zM111.4 102.65a2.5 2.5 0 1 0 3.54 0 2.59 2.59 0 0 0-3.54 0zM153.06 65.63h.5a2.5 2.5 0 1 0 0-5h-.5a2.5 2.5 0 0 0 0 5zM141.5 65.63h.5a2.5 2.5 0 1 0 0-5h-.5a2.5 2.5 0 0 0 0 5zM129.94 65.63h.5a2.5 2.5 0 1 0 0-5h-.5a2.5 2.5 0 0 0 0 5z'
+											fill='#000000'
+											opacity={1}
+											data-original='#000000'
+											
+										/>
+									</g>
+								</svg>
+							</div>
+							<span className='text-lg text-center font-medium text-[#1A1F2C]'>
+								Website <br/> (About Me)
+							</span>
+						</a>
 						{/* Call Button */}
 						<a
 							href='tel:+917990251603'

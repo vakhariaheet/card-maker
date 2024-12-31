@@ -41,7 +41,6 @@ export function InquiryDialog({ children }: InquiryDialogProps) {
       body: JSON.stringify(data)
     });
     const json = await resp.json();
-    console.log(json);
     toast({
       title: "Inquiry Submitted",
       description: "We will get back to you soon.",
