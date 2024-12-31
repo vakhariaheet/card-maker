@@ -20,9 +20,9 @@ const Index = () => {
 
 				{/* Logo Section */}
 				<div className='relative -mt-16 mb-12'>
-					<div className='w-32 h-32 rounded-full overflow-hidden bg-[#1A1F2C] flex items-center justify-center border-4 border-white shadow-2xl'>
+					<div className='w-32 h-32 rounded-full p-2 overflow-hidden bg-[#1A1F2C] flex items-center justify-center border-4 border-white shadow-2xl'>
 						<img
-							src='/assets/main-icon.jpg'
+							src='/assets/new.png'
 							alt='Jignesh G Patel'
 							className='w-full h-full object-cover '
 						/>

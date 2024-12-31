@@ -32,7 +32,7 @@ export function InquiryDialog({ children }: InquiryDialogProps) {
   const { register, handleSubmit, reset } = useForm<FormData>();
 
   const onSubmit = async (data: FormData) => {
-    const resp = await fetch(`${import.meta.env.VITE_WORKER_URL}/mail`, {
+    const resp = await fetch(`${import.meta.env.VITE_WORKER_URL}/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
