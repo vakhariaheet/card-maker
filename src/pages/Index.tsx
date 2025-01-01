@@ -12,7 +12,7 @@ const Index = () => {
 					className='w-full py-20 px-4 text-center bg-cover bg-bottom bg-[#1A1F2C] relative'
 					style={{
 						background:
-							'url(/assets/bg.jpg), linear-gradient(rgba(26, 31, 44, 0.8), rgba(26, 31, 44, 0.6))',
+							'url(/assets/bg.jpg), linear-gradient(rgba(26, 31, 44, 0.2), rgba(26, 31, 44, 0.4))',
 						backgroundBlendMode: 'overlay',
 						backgroundPosition: 'bottom',
 						backgroundRepeat: 'no-repeat',
@@ -657,7 +657,7 @@ const Index = () => {
 
 						{/* Google Maps Button */}
 						<a
-							href='https://goo.gl/maps/8QkM1bZQ8vKX9Z5e7'
+							href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.0992043032837!2d72.64707127599761!3d23.037333979150786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAyJzE0LjQiTiA3MsKwMzgnNTguOCJF!5e0!3m2!1sen!2sin!4v1710830058045!5m2!1sen!2sin'
 							target='_blank'
 							rel='noreferrer'
 							className='flex flex-col items-center gap-4 group'
