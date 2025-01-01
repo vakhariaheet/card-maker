@@ -1,6 +1,7 @@
 import { QrCodePopover } from '@/components/QrCodePopover';
 import { InquiryDialog } from '@/components/InquiryDialog';
 import { Button } from '@/components/ui/button';
+import Footer from '@/components/Footer';
 
 const Index = () => {
 	return (
@@ -674,28 +675,7 @@ const Index = () => {
 					</div>
 				</main>
 			</div>
-			<footer className='bg-[#28439Bff] h-[50px]'>
-				<div className='h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-					<div className='h-full flex items-center justify-between'>
-						<div className='flex items-center space-x-4'>
-							<p className='text-xs text-indigo-100'>
-								© {new Date().getFullYear()} Webbound. All rights reserved.
-							</p>
-						</div>
-
-						<div className='flex items-center space-x-4'>
-							<Button
-								variant='secondary'
-								size='sm'
-								className='bg-white text-[#28439Bff] hover:bg-indigo-50 transition-colors duration-200'
-								asChild
-							>
-								<a href='https://wa.link/5bwncp'>Get Your Digital Card</a>
-							</Button>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<Footer/>
 		</div>
 	);
 };
