@@ -657,7 +657,7 @@ const Index = () => {
 
 						{/* Google Maps Button */}
 						<a
-							href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.0992043032837!2d72.64707127599761!3d23.037333979150786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAyJzE0LjQiTiA3MsKwMzgnNTguOCJF!5e0!3m2!1sen!2sin!4v1710830058045!5m2!1sen!2sin'
+							href='https://www.google.com/maps/place/Jignesh+Patel+Advocate+%26+Notary/@23.0372408,72.6495794,20.23z/data=!4m12!1m5!3m4!2zMjPCsDAyJzE0LjQiTiA3MsKwMzgnNTguOCJF!8m2!3d23.037329!4d72.6496534!3m5!1s0x395e87371a3bafd9:0x6e93d328002ea46e!8m2!3d23.0373999!4d72.6498634!16s%2Fg%2F11tfz1gg_h?hl=en&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D'
 							target='_blank'
 							rel='noreferrer'
 							className='flex flex-col items-center gap-4 group'
